@@ -5,9 +5,8 @@
 package txsizes
 
 import (
-	"github.com/roasbeef/btcd/wire"
-
-	h "github.com/roasbeef/btcwallet/internal/helpers"
+	"github.com/ltcsuite/ltcd/wire"
+	h "../../../internal/helpers"
 )
 
 // Worst case script and input/output size estimates.
